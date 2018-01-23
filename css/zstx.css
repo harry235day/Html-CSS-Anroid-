@@ -1,3 +1,36 @@
+
+	.zstx-main {
+		margin: 0 auto;
+	}
+
+	.classfiy {
+		background-color: #fff;
+		position: relative;
+	}
+
+	.classfiy-frist,.classfiy-second {
+		display: block;
+		padding: 10 10px;
+	}	
+
+	.classfiy-frist div , .classfiy-sencond div {
+		margin-left: 80px;
+		display: block;
+	}
+
+	.classfiy-frist label,.classfiy-second label {
+		margin-left: 5px;
+		float: left;
+	}
+
+ 	
+
+
+
+	
+
+
+	/*//导航*/
 	
 	body {
 		background-color: #ebebeb;
@@ -129,151 +162,18 @@
 		background: url(../images/search_icon.svg) #fff no-repeat center;
 		margin-top: 13px ;
 	}
-	
 
-	/*主题部分*/
-	.main {
-		margin: 0 auto;
-		margin-top: 30px;
-
-	}
-	.left-content {
-		width: 870px;
-		float: left;
-		height: 280px;
-	}
-
-	.banner-top {
-		height: 280px;
-		width: 100%;
+	
+	.footer a {
+		position: fixed;
+		right: 5%;
+		bottom: 10%;
+		width: 50px;
+		height:50px;
+		background: url(../images/gotop.svg) no-repeat center;
 	}
 	
-	.banner-left {
-		float: left;
-		width: 578.55px;
-		height: 280px;
-		overflow: hidden;
-		position: relative;
-	}
-	
-	.banner-left img {
-		width: 578.55px;
-		height: 280px;
-	}
-
-	.bottom-info {
-		position: absolute;
-		left: 0;
-		bottom: 0;
-		background: #100012;
-		width: 100%;
-		height: 40px;
-		line-height: 40px;
-	}
-
-	.bottom-info span {
-		color: #fff;
-		width: 300px;
-		height: 40px;
-		line-height: 40px;
-		margin-left: 10px;
-		overflow: hidden;
-		display: inline-block;
-		float: left;
-	}
-	
-	.bottom-info ul {
-		width: 100px;
-		height: 40px;
-		display: inline-block;
-		float: right;
-	}
-	
-	.bottom-info li {
-		float: left;
-		height: 40px;
-	}
-
-	.bottom-info a {
-		background: #fff;
-		border-radius: 5px;
-		width: 8px;
-		height: 8px;
-		clear: both;
-		display: inline-block;
-		margin-top: 16px;
-		margin-left: 10px;
-	}
-	
-	.bottom-info .frist-tab {
-		background: #ccc;
-	}
-	
-	.slide-left {
-		position: absolute;
-		left: 0;
-		top: 47%;
-		width: 100%;
-	}
-	
-	.h-pre {
-		float:left;
-		display: inline-block;
-		font-family: conslose;
-		font-size: 40px;
-		color: #ccc;
-		margin-left: 5px;
-	}
-	
-	.h-back {
-		float:right;
-		display: inline-block;
-		font-family: conslose;
-		font-size: 40px;
-		color: #ccc;
-		margin-right: 5px;
-	}
-	.banner-right {
-		float: left;
-		width: 291.44px;
-		height: 280px;
-		overflow: hidden;
-		margin-left: -1px;
-		position: relative;
-	}
-	
-	.banner-right img {
-		width: 291.44px;
-		height: 140px;
-		display: block;
-	}
-	
-	.v-slide {
-		position: absolute;
-		width: 30px;
-		height: 100%;
-		left: 50%;
-		top: 0;
-		margin-left: -15px;
-	}
-	
-	.v-top {
-		background: url(../images/top-bottom.svg) no-repeat -8px -30px;
-		width: 30px;
-		height: 30px;
-		display: block;
-		margin-top: 8px;
-	}
-	
-	.v-bottom {
-		background: url(../images/top-bottom.svg) no-repeat -8px 0px;
-		width: 30px;
-		height: 30px;
-		display: block;
-		margin-top: 215px;
-	}
-	
-
+	/*列表*/
 	.main-content {
 		background: #fff;
 		height: auto;
@@ -356,116 +256,13 @@
 	.conten-detail p a:hover {
 		text-decoration: underline;
 	}
-	
-	.right-total {
-		width: 290px;
-		float: right;
-		margin-right: 50px;
+	.left-content {
+		width: 870px;
+		float: left;
+		height: 280px;
 	}
 
-	/*常用工具*/
-	.us-util,.us-url,.us-serarch,.us-about {
-		background-color: #fff;
-		border-radius: 5px;
-		padding-bottom: 10px;
-		padding-right: 10px;
-	}
-	.us-url,.us-serarch,.us-about {
-		margin-top: 30px;
-	}
-	.us-util a {
-		font-size: 14px;
-		color: #767676;
-		cursor: pointer;
-		padding: 3px 7px;
-		margin-top: 10px;
-		margin-left: 15px;
-		border-radius: 3px;
-		display: inline-block;
-		border: 1px solid #dcdcdc;
-	}
-
-	.us-util a:hover {
-		border: 1px solid #666;
-	}
-
-	.us-url a {
-		cursor: pointer;
-		margin-top: 10px;
-		margin-left: 15px;
-		display: inline-block;
-		font-size: 14px;
-	}
-	.us-url a:hover,.us-serarch a:hover {
-		text-decoration: underline;
-	}
-	
-	.us-serarch a {
-		cursor: pointer;
-		margin-top: 10px;
-		margin-left: 15px;
-		display: inline-block;
-		font-size: 14px;
-		color: #3367D6;
-	}
-	
-	.us-about {
-		position: relative;
-		padding-bottom:25px;
-	}
-
-	label {
-		cursor: default;
-	}
-	.us-about label {
-		display: block;
-		color: #767676;
-		font-size: 14px;
-		margin-left: 15px;
-		margin-top: 10px;
-	}
-	
-	.us-about label span {
-		color: #222;
-		line-height: 10px;
-		letter-spacing: 1px;
-
-	}
-
-	.us-about label span {
-		color: #222;
-		line-height: 10px;
-		letter-spacing: 1px;
-	}
-	
-	.us-about label a {
-		color: #2782EF;
-		line-height: 10px;
-		letter-spacing: 1px;
-		text-decoration: underline;
-		cursor: pointer;
-	}
-	.us-about h3 {
-		position: absolute;
-		right: 10px;
-		bottom: 10px;
-		cursor: pointer;
-	}
-
-	.container {
-		position: relative;
-	}	
-
-	.footer a {
-		position: fixed;
-		right: 5%;
-		bottom: 10%;
-		width: 50px;
-		height:50px;
-		background: url(../images/gotop.svg) no-repeat center;
-	}
-	
-	/*//登录注册*/
+ 	/*//登录注册*/
 
 	.login-dialog {
 		width: 100%;
@@ -595,4 +392,3 @@
 		padding: 0 10px;
 		min-width: 50px;
 	}
-
