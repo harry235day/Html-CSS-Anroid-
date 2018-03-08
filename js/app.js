@@ -8,7 +8,9 @@
 			var falg = checkouloadFlag();
 			if(falg){
 				loadlist();
+				load();
 			}
+			
 		}
 
 	//是否加载更多
@@ -46,6 +48,9 @@
 	function loadlist() {
 		for (var i = 0; i < 10; i++) {
 	    var container = document.getElementById("main-content");
+	    if(container==null){
+	    	return;
+	    }
 	    var mainContent = document.createElement("div");
 	    mainContent.className = 'content-list';
 
@@ -86,3 +91,36 @@
 	    container.appendChild(mainContent);
 	}
 	}
+
+	function load(){
+		// $.ajax({
+		// 	url: 'http://www.wanandroid.com/article/list/'+0+'/json',
+		// 	type: 'get',
+		// 	dataType:'jsonp',
+		// 	 jsonp:'cb',
+		// 	 cache:"false",
+		// 	 jsonpCallback:"getMessage", //这里定义了jsonp的回调函数 
+		// 	sucess:function(result){
+		// 		debugger;
+		// 		console.log(result.toString());
+		// 	}
+		// });
+		$.ajax({
+                     url: "http://www.wanandroid.com/article/list/1/json",
+                     type: "get",
+                     dataType: "jsonp", //指定服务器返回的数据类型
+                     success: function (data) {
+                     	console.log(data);
+                     	debugger;
+                      
+                    }
+
+                    });
+
+	}
+	function getMessage(jsonp){  
+				debugger;
+                alert("message:"+jsonp);  
+            }
+	
+	

@@ -2,6 +2,9 @@
 	//内容列表
 	for (var i = 0; i < 10; i++) {
 	    var container = document.getElementById("main-content");
+	    if(container==null){
+	    	break;
+	    }
 	    var mainContent = document.createElement("div");
 	    mainContent.className = 'content-list';
 
@@ -172,9 +175,10 @@
 
 	};
 
-	var leftTitle = document.getElementById("bottom-info");
-	var arrulA = leftTitle.getElementsByTagName("a");
 
-	console.log(arrulA);
+	
 
+
+
+	
 // }

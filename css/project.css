@@ -1,0 +1,195 @@
+
+	.project {
+		width: 100%;
+		background-color: #fff;
+		margin: 30px auto;
+		overflow: hidden;
+		display: block;
+	}
+	
+	.p-cont {
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+		display: inline-block;
+	}
+	.project-ul {
+		width: 86%;
+		margin: 30px auto;
+		overflow: hidden;
+		display: inline-block;
+		float: left;
+	}
+	
+	.project-ul li {
+		float: left;
+		height: 290px;
+		border: 1px solid #eee;
+		width: 49%;
+		/*margin-left: 1%;*/
+		display: block;
+		box-shadow: 0 1px 2px 0 rgba(0,0,0,.05);
+	}
+	
+	.project-li-con {
+		height: 290px;
+		/*background-color: red;*/
+		width: 100%;
+		display: block;
+		position: relative;
+	}
+
+	.p-img  {
+		margin-top: 10px;
+		display: inline-block;
+		width: 30%;
+		height: 270px;
+		/*background: url(../images/project1.png) center center no-repeat;*/
+		background-size: 164px 270px;
+	}
+
+	.p-con {
+		overflow: hidden;
+		display: inline-block;
+		width: 67%;
+		height: 270px;
+		margin-top: 10px;
+		position: relative;
+	}
+
+	.p-con h3 {
+		width: 100%;
+		height: 40px;
+		line-height: 40px;
+		overflow: hidden;
+	}
+
+	.p-con h3 a{
+		color: #333;
+		cursor: pointer;
+		word-break:keep-all;           /* 不换行 */
+		white-space:nowrap;          /* 不换行 */
+		overflow:hidden;               /* 内容超出宽度时隐藏超出部分的内容 */
+		text-overflow:ellipsis;         /* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/
+		cursor: pointer;
+		display: inline-block;
+	}
+	
+	.desc {
+		width: 100%;
+		height: 80px;
+		overflow: hidden;
+	}
+
+	.p-bottom {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		height: 30px;
+		line-height: 30px;
+		
+		text-align: center;
+	}
+	
+	.p-bottom span {
+		float: left;
+		display: inline-block;
+		text-align: center;
+		margin-left: 10px;
+	}
+
+	span.collect {
+		width:20px;
+		height: 20px;
+		background: url(../images/collect_icon.svg) center center no-repeat;
+		float: right;
+		margin-right: 10px;
+	}
+	
+	.collect:hover {
+		background: url(../images/collect_icon_hover.svg)  center center no-repeat;
+	}
+
+	/*左边tab栏*/
+	.p-tab {
+		float: left;
+		overflow: hidden;
+		display: inline-block;
+		width: 10%;
+		height: 300px;
+		margin: 30px 1%;
+		padding-top: 1px;
+	}
+	
+
+	.p-tab li{
+		display: inline-block;
+		text-align: center;
+		width: 100px;
+		height: 30px;
+		line-height: 30px;
+		border: 1px solid #dbe2e8;
+		margin-top: -1px;
+		color: #333;
+	}
+	
+	
+	.p-tab  a {
+		color: #333;
+		font-size: 14px;
+	}
+
+	a.a-active  {
+		color: #2782EF;
+	}
+
+	.p-tab li a:hover {
+		color: #2782EF;
+	}
+
+	/*面包屑*/
+	.page-con {
+		width: 100%;
+		height: 30px;
+		margin: 50px auto 30px;
+		overflow: hidden;
+		text-align: center;
+	}
+	
+	.page-con a {
+		display: inline-block;
+		border: 1px solid #2782EF;
+		min-width: 30px;
+		height: 28px;
+		line-height: 28px;
+		text-align: center;
+		cursor: pointer;
+		padding: 0px 8px; 
+	}
+
+
+	/*底部标识*/
+
+	.footer-mark {
+		
+		width: 100%;
+		height: 50px;
+		line-height: 50px;
+		margin-top: 30px;
+		background-color: white;
+		border: 1px solid #e4dede;
+	}
+
+	.footer-mark p {
+		text-align: center;
+		line-height: 50px;
+		font-size: 14px;
+		color: #767676;
+	}
+
+	.footer-mark a {
+		font-size: 14px;
+		color: #767676;
+		cursor: pointer;
+	}

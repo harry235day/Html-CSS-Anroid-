@@ -1,0 +1,225 @@
+
+	.content {
+		background-color: #fff;
+		margin: 0 auto;
+		margin-top: 30px;
+		padding: 30px 0;
+		overflow: hidden;
+	}
+
+	.nav-url {
+		float: left;
+
+	}
+	
+	.nav-content {
+		float: right;
+		margin-right: 20px;
+		overflow: hidden;
+	}
+
+	.nav-url ul {
+		width: 120px;
+		margin-left: 40px;
+	}
+
+	.nav-url li {
+		height: 30px;
+		line-height: 30px;
+		border: 1px solid #dbe2e8;
+		margin-top: -1px;
+		text-align: center;
+	}
+	
+	.nav-url li a {
+		font-size: 15px;
+		color: #333;
+		cursor: pointer;
+	}
+	
+	.nav-url li a:hover {
+		text-decoration: underline;
+		color: #2782EF;
+	}
+
+
+	/*右侧*/
+
+	.nav-list {
+
+		border: 1px solid #dbe2e8;
+		width: 912px;
+		
+		/*overflow: hidden;*/
+	}
+
+	.nav-list h1 {
+		text-indent: 20px;
+		height: 40px;
+		line-height: 40px;
+		color: rgb(230, 76, 59);
+		font-weight: bold;
+	}
+
+	.nav-list ul {
+		display: inline-block;
+
+	}
+	
+	.nav-list li {
+		width: 182px;
+		height: 30px;
+		line-height: 30px;
+		text-align: center;
+		overflow: hidden;
+		float: left;
+		margin-top: 10px;
+	}
+
+	.nav-list li a {
+		display: inline-block;
+		color: #3482DF;
+		cursor: pointer;
+		font-size: 15px;
+		word-break:keep-all;           /* 不换行 */
+		white-space:nowrap;          /* 不换行 */
+		overflow:hidden;               /* 内容超出宽度时隐藏超出部分的内容 */
+		text-overflow:ellipsis;         /* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/
+
+	}
+
+	.nav-list li a:hover {
+		text-decoration: underline;
+	}
+
+	/*底部标识*/
+
+	.footer-mark {
+		
+		width: 100%;
+		height: 50px;
+		line-height: 50px;
+		margin-top: 30px;
+		background-color: white;
+		border: 1px solid #e4dede;
+	}
+
+	.footer-mark p {
+		text-align: center;
+		line-height: 50px;
+		font-size: 14px;
+		color: #767676;
+	}
+
+	.footer-mark a {
+		font-size: 14px;
+		color: #767676;
+		cursor: pointer;
+	}
+
+
+	/*百度搜索*/
+
+	.nav-search {
+		width: 100%;
+		height: 60px;
+		line-height: 60px;
+		margin:0 0 25px 0;
+	}
+	
+	.nav-con {
+		width: 620px;
+		height: 60px;
+		margin:0 auto;
+	}
+
+	.nav-type {
+		width: 120px;
+		height: 33px;
+		float: left;
+		margin-top :13px;	
+		position: relative;
+		cursor: pointer;
+	}
+	
+	.iv {
+		margin-bottom: 9px;
+		display: inline-block;
+	    border-right: 5px solid transparent;
+	    border-top: 5px solid #adadad;
+	    border-left: 5px solid transparent;
+	}
+
+	.nav-type-t {
+		width: 100px;
+		height: 33px;
+		display: inline-block;
+		background: url(../images/navicon/baidu_logo.png) center  center no-repeat ;
+		
+	}
+	
+	.nav-type-s {
+		background-color: #fff;
+		position: absolute;
+		left: 0;
+		top: 33px;
+		width: 100px;
+		display: block;
+		border-top: 1px solid #dbe2e8;
+		border-left: 1px solid #dbe2e8;
+		border-right: 1px solid #dbe2e8;
+		display: none;
+	}
+	
+	.nav-type-s li {
+		width: 100px;
+		height: 33px;
+	}
+
+	.nav-type-s li a {
+		display: block;
+		width: 100px;
+		height: 33px;
+		cursor: pointer;
+		/*background-image: url(../images/navicon/github_logo.png) center center no-repeat;*/
+		border-bottom: 1px solid #dbe2e8;
+	}
+
+
+
+
+	.nav-search-input {
+		float: left;
+		width: 500px;
+		height:33px;
+		line-height: 33px;
+
+	}
+
+	.nav-search-input input {
+		display: inline-block;
+		height:35px;
+		line-height: 35px;
+		margin: 12px -3px;
+		padding: 0 5px;
+		
+	}
+
+	.nav-search-input input[type='text'] {
+		width: 388px;
+		height:35px;
+		line-height: 35px;
+		border: 1px solid #adadad;
+	}
+
+	.nav-search-input input[type='button'] {
+		width: 100px;
+		height:37px;
+		line-height: 37px;
+		background-color: #3498db;
+		border: 0
+	}
+
+	.nav-search-input input[type='text']:focus {
+		border: 1px solid #3498db;
+	}

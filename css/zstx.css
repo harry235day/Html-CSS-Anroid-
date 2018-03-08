@@ -1,179 +1,76 @@
+	
+		
+
 
 	.zstx-main {
-		margin: 0 auto;
+		width: 100%;
 	}
-
-	.classfiy {
+	
+	.mian-classfiy {
+		width: 100%;
 		background-color: #fff;
-		position: relative;
-	}
-
-	.classfiy-frist,.classfiy-second {
+		height: auto;
 		display: block;
-		padding: 10 10px;
-	}	
-
-	.classfiy-frist div , .classfiy-sencond div {
-		margin-left: 80px;
-		display: block;
-	}
-
-	.classfiy-frist label,.classfiy-second label {
-		margin-left: 5px;
-		float: left;
-	}
-
- 	
-
-
-
-	
-
-
-	/*//导航*/
-	
-	body {
-		background-color: #ebebeb;
-	}	
-	
-	.w {
-		width: 1260px;
-		max-width: 1260px;
-		min-width: 720px;
 		
 	}
-	.sigleline {
-		word-break:keep-all;           /* 不换行 */
-		white-space:nowrap;          /* 不换行 */
-		overflow:hidden;               /* 内容超出宽度时隐藏超出部分的内容 */
-		text-overflow:ellipsis;   
+	
+	.classfiy {
+		margin: 0 auto;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		overflow: hidden;
 	}
-	.nav {
-		width: 1903px;
-		height: 60px;
-		background-color: #276692;
+	
+	.classfiy-frist , .classfiy-sencond {
+		display: block;
+		overflow: hidden;
+	}
+	
+	.classfiy-frist label ,.classfiy-sencond label {
+		float: left;
+		margin-top: 12px;
 	}
 
-	.container-nav {
-		position: relative;
+	.classfiy-frist div ,.classfiy-sencond div {
+		margin: 0 0 0 80px;
+	}
+	
+
+	.classfiy-frist  a ,.classfiy-sencond  a {
+		color: #14191e;
+		cursor: pointer;
+		padding: 5px;
+		margin-left: 8px;
+		display: inline-block;
+		margin-top: 10px;
+		font-size: 15px;
+		border: 2px solid #fff;
+	}
+
+	.classfiy-frist a:hover ,.classfiy-sencond  a:hover {
+		text-decoration: underline;
+		color: #3498db;
+	}		
+	
+	.classfiy-sencond .class-tab-a ,.classfiy-frist .class-tab-a {
+		border-radius: 2px;
+		border: 2px solid #3498db;
+		color: #3498db;
+	}
+
+	.classfiy-sencond .class-tab-a:hover ,.classfiy-frist .class-tab-a:hover{
+		text-decoration: none;
+	}
+
+
+	
+
+	/*主题部分 列表*/
+	
+	.list-url {
 		margin: 0 auto;
 	}
 
-	.left-nav,.left-ul,.left-logo {
-		float: left;
-	}
-	.right-nav {
-		float: right;
-		overflow: hidden;
-	}
-	.left-ul li {
-		float: left;
-		height: 60px;
-		display: inline-block;
-		overflow: hidden;
-	}
-	.left-nav a {
-		display: inline-block;
-		height: 56px;
-		line-height: 56px;
-		cursor: pointer;
-		color: #fff;
-		padding-top: 4px;
-	}
-	
-	.left-nav img {
-		margin:5px 20px;
-	}
-	.left-ul a {
-		padding: 0 10px;
-		margin: 0 7px;
-	}
-	
-	.current-a {
-		border-bottom: 4px solid #fff;
-	} 
-
-	.left-ul a:hover{
-		border-bottom: 4px solid #fff;
-	}
-
-	.right-nav div {
-		float: left;
-		display: inline-block;
-
-	}
-	.right-login {
-		margin-left: 20px;
-	}
-
-	.right-login ul {
-		display: inline-block;
-
-	}
-
-	.nav-name {
-		display: inline-block;
-		height: 20px;
-		line-height: 60px;
-		width: 200px;
-		text-align: center;
-	}
-
-	.right-login li {
-		float: left;
-		color: #fff;
-		line-height: 60px
-	}
-
-	.right-login a {
-		cursor: pointer;
-		color: #fff;
-		display: inline-block;
-		padding: 0 5px;
-		line-height: 60px
-	}	
-	.right-login a:hover {
-		color: #aaa;
-	}
-
-
-
-	.right-search {
-	
-	}
-
-	.right-search input {
-		border: 1px solid #fff;
-		border-radius: 4px 0 0 4px;
-		width: 170px;
-		height: 33px;
-		padding-left: 2px;
-		margin-top: 12.5px;
-	}
-	.search-icon {
-		
-	}
-	.search-icon span {
-		width: 40px;
-		height: 35px;
-		border: 1px solid #fff;
-		display: block;
-		border-radius: 0 4px 4px 0;
-		background: url(../images/search_icon.svg) #fff no-repeat center;
-		margin-top: 13px ;
-	}
-
-	
-	.footer a {
-		position: fixed;
-		right: 5%;
-		bottom: 10%;
-		width: 50px;
-		height:50px;
-		background: url(../images/gotop.svg) no-repeat center;
-	}
-	
-	/*列表*/
 	.main-content {
 		background: #fff;
 		height: auto;
@@ -256,139 +153,41 @@
 	.conten-detail p a:hover {
 		text-decoration: underline;
 	}
-	.left-content {
-		width: 870px;
-		float: left;
-		height: 280px;
-	}
-
- 	/*//登录注册*/
-
-	.login-dialog {
-		width: 100%;
-		height: 100%;
-		background: rgba(0,0,0,0.5);
-		position: fixed;
-		left: 0;
-		top: 0;
-		display: none;
-	}
 	
-	.lg-model {
-		width: 400px;
-		height: auto;
-		background: #fff;
-		border-radius: 4px;
-		margin: 0 auto;
-		margin-top: 10%;
-		padding-bottom: 30px;
-		position: relative;
-		
+	.right-total {
+		width: 290px;
+		float: right;
+		margin-right: 50px;
 	}
+
 	
-	.lg-title h1 {
-		position: relative;
-		height: 40px;
-		line-height: 40px;
-		border: 1px solid #eee;
-		text-align: left;
-		text-indent: 10px;
-		color: #333;
-		border-radius: 4px 4px 0 0;
-	}
+	/*常用网站*/
 
-	#close {
-		width: 20px;
-		height: 20px;
-		display: block;
-		position: absolute;
-		right: 10px;
-		top: 10px;
-		background: url(../images/delete_icon2.png) no-repeat center center;
-		background-size: 12px 12px;
-		cursor: pointer;
-	}
-	
-	#close:hover {
-		background: url(../images/delete_icon2_hover.png) no-repeat center center;
-		background-size: 12px 12px;
-	}
-
-	.lg-title input[type='text'],.lg-title input[type='password'] {
-		display: block;
-		width: 360px;
-		height: 37px;
-		margin: 10px auto;
-		border-radius: 4px;
-		outline: none;
-		border: 1px solid #adadad;
-		-webkit-appearance: none;
-		-moz-appearance: none;
-		appearance: none;
-		text-indent: 10px;
-	}
-
-	.lg-title input[type='text'] {
-		margin-top: 20px;
-	}
-
-	.lg-title input:focus {
-		border: 1px solid #3498db;
-	}
-
-	#go-login-regist {
-		display: block;
-		float:right;
-		margin-right: 13px;
-		color: #3498db;
-		text-decoration: underline;
-		cursor: pointer;
-	}
-	
-	.erro-info {
-		display: block;
-		width: 100%;
-		color: red;
-		float: left;
-		text-indent: 20px;
-		margin-top: 10px;
-		margin-bottom: 10px;
-		display: none;
-	}
-
-	.lg-title input[type='button'] {
-		clear: right;
-		display: block;
-		width: 360px;
-		height: 40px;
-		margin: 0 auto;
-		border-radius: 4px;
-		outline: none;
-		cursor: pointer;
-		border: 1px solid #adadad;
-		-webkit-appearance: none;
-		-moz-appearance: none;
-		appearance: none;
-		text-align: center;
-		background: #3498db;
-		color: #fff;
-		font-size: 16px;
-		margin-top: 50px;
-	}
-
-	.sucess-info {
-		display: none;
-		height: 30px;
+	.us-url {
+		background-color: #fff;
 		border-radius: 5px;
-		background-color: #333;
-		position: absolute;
-		left: 50%;
-		top: 50%;
-		margin-left: -30px;
-		color: #fff;
+		padding-bottom: 10px;
+		padding-right: 10px;
+		margin-top: 30px;
+	}
+
+	.us-url a {
+		cursor: pointer;
+		margin-top: 10px;
+		margin-left: 15px;
+		display: inline-block;
 		font-size: 14px;
-		text-align: center;
-		line-height: 30px;
-		padding: 0 10px;
-		min-width: 50px;
+	}
+	.us-url a:hover {
+		text-decoration: underline;
+	}
+
+
+	.footer a {
+		position: fixed;
+		right: 5%;
+		bottom: 10%;
+		width: 50px;
+		height:50px;
+		background: url(../images/gotop.svg) no-repeat center;
 	}

@@ -3,14 +3,13 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>玩Android - wananroid.com</title>
+    <title>玩Android- wananroid.com</title>
     <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="stylesheet" type="text/css" href="css/rest.css">
     <link rel="stylesheet" type="text/css" href="css/nav-bar.css">
     <link rel="stylesheet" type="text/css" href="css/login-model.css">
-    <link rel="stylesheet" type="text/css" href="css/zstx.css">
-   
-   
+    <link rel="stylesheet" type="text/css" href="css/app.css"> 
+    <link rel="stylesheet" type="text/css" href="css/project.css"> 
 </head>
 
 <body>
@@ -30,13 +29,13 @@
                                 <a href="index.html" target="_self" >首页</a>
                             </li>
                             <li>
-                                <a href="#" target="_self" class="current-a">体系</a>
+                                <a href="zstx.html" target="_self">体系</a>
                             </li>
                             <li>
-                                <a href="useurl.html" target="_self">导航</a>
+                                <a href="useurl.html" >导航</a>
                             </li>
                             <li>
-                                <a href="project.html">项目</a>
+                                <a href="project.html" class="current-a">项目</a>
                             </li>
                             <li>
                                 <a href="util.html">工具</a>
@@ -67,66 +66,70 @@
                             </li>
                         </ul>
                     </div>
+
+            
                 </div>
             </div>
         </div>
         <!-- 导航部分 结束-->
         <!-- 主题部分 -->
-        <div class="zstx-main" style='margin-top: 0px'>
-            <div class="mian-classfiy">
-                    <div class="classfiy w">
-                        <div class="classfiy-frist">
-                            <label>一级分类:</label> 
-                            <div id="frist-list">
-                                <!-- <a href="#" class="class-tab-a">开发环境</a> -->
-                                
-                           </div>
-                        </div>
-                        <div class="classfiy-sencond">
-                            <label>二级分类:</label> 
-                            <div id="sencond-list">
-                                <!-- <a href="#" class="class-tab-a">开发环境</a> -->
-                                
-                            </div>
-                        </div>
-                    </div>
-             </div>
+         <div class="project w" id="project">
+            <div class="p-cont">
+                 <ul class="p-tab" id="p-tab">
+                     <!-- <li><a href="#" class="a-active">222</a></li>                -->
+                                  
+                </ul>
 
-            <div class="list-url w">
-                <div class="main-content " id="main-content" style='float: left;'>
-                    <p class="p-title">最新博文</p>
-                    <div class="content-list">
-                        <a href="#" class="collect-a"></a>
-                        <div class="conten-detail">
-                            <h1>关于Android Gradle你需要知道这些（2） 关于Android Gradle你需要知道这些关于Android Gradle你需要知道这些关于Android Gradle你需要知道这些</h1>
-                            <p>
-                                作者：<a href="#">jensenchen</a> 分类：<a href="#">gradle</a> 时间：1天前
-                            </p>
-                        </div>
-                    </div>
-                    <div class="content-list" id="content-list">
-                        <a href="#" class="collect-a"></a>
-                        <div class="conten-detail">
-                            <h1>关于Android Gradle你需要知道这些（2） 关于Android Gradle你需要知道这些关于Android Gradle你需要知道这些关于Android Gradle你需要知道这些</h1>
-                            <p>
-                                <span>作者：</span>
-                                <a href="#">jensenchen</a>
-                                <span>分类：</span>
-                                <a href="#">gradle</a>
-                                <span> 时间：1天前</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="right-total" style='float: right;'>
-                    <div class="us-url" id="us-url">
-                        <p class="p-title">常用网站</p>
-                    </div>
-                </div>
+                <ul id="project-ul" class="project-ul" >
+                 </ul>
+            
             </div>
-        </div>
-       
+            
+               
+                <!--  <li>
+                     <div class="project-li-con">
+                        <div class="p-img"></div>
+                        <div class="p-con">
+                            <h3><a href="#" >Mingziaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</a></h3>
+                            <div class="desc">
+                                <p>啊搜集啊搜啊搜哦阿萨斯三所所所所阿萨斯三所所所所所所</p>
+                            </div>
+                            <p class="p-bottom">
+                                <span>aa</span>
+                                <span>&nbsp;&nbsp;bb</span>
+                                <span><a href="#">&nbsp;&nbsp;cc</a></span>
+                                <span class="collect"></span>
+                            </p>
+                        </div>
+                     </div>
+                 </li> -->
+
+            
+            <!-- 面包屑开始 -->
+            <div class="page-con">
+                <a href="#">首页</a>    
+                <a href="#">上一页</a>    
+                <a href="#">1</a>    
+                <a href="#">2</a>    
+                <a href="#">尾页</a>    
+               <span>共</span>
+               <span>2页</span>
+               <span>共</span>
+               <span>8条</span>
+                <span>记录</span>
+            </div>
+            <!-- 面包屑结束 -->
+         </div> 
         <!-- 主题部分 结束 -->
+        <!-- 底部标识开始 -->
+        
+        <div class="footer-mark">
+             <p>
+                 ©2018 · wanandroid.com · All Rights Reserved.  <a href="#">关于我们</a> 
+                 <a href="#">站长统计</a>
+             </p> 
+        </div>
+        <!-- 底部标识结束 -->
 
        	<div class="footer">
        		<a href="#logo"></a>
@@ -155,9 +158,9 @@
 
     </div>
 </body>
- <script type="text/javascript" src="js/index.js"></script>
-  <script type="text/javascript" src="js/app.js"></script>
-  <script type="text/javascript" src="js/zstx.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+  <script type="text/javascript" src="js/project.js"></script>
+  
 <script type="text/javascript">
 	
 </script>
